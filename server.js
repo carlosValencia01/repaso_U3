@@ -20,7 +20,7 @@ app.use(function (req, res, next) {
     next();
 })
 
-const urlBase = '/api/v1/';
+const urlBase = '/api/v2/';
 
 const product = require('./routers/product.router')(wagner);
 
