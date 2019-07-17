@@ -9,7 +9,7 @@ let app = express();
 
 require('./models/models')(wagner);
 
-app.use(morga('dev'));
+app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
